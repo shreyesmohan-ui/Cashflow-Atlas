@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.shrey.cashflowatlas.app-mergeReleaseResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shrey\\Documents\\New project\\launch-lens\\android-cashflow-atlas\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "51",
+                        "endOffsets": "63"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "147",
+                        "endColumns": "51",
+                        "endOffsets": "194"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shrey\\Documents\\New project\\launch-lens\\android-cashflow-atlas\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,62",
+                        "endColumns": "45,45",
+                        "endOffsets": "57,103"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,45",
+                        "endOffsets": "96,142"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shrey\\Documents\\New project\\launch-lens\\android-cashflow-atlas\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "345"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "528"
+                    }
+                }
+            ]
+        }
+    ]
+}

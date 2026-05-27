@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="atlas_green">#059669</color>
+    <color name="atlas_paper">#FFF8EA</color>
+    <string name="app_name">Cashflow Atlas</string>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F4EFE2</item>
+        <item name="android:navigationBarColor">#FFF8EA</item>
+    </style>
+</resources>

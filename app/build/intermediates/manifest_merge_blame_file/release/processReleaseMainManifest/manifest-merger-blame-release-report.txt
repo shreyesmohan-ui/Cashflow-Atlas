@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shrey.cashflowatlas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.READ_SMS" />
+11-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:2:22-64
+12
+13    <uses-feature
+13-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:3:5-5:36
+14        android:name="android.hardware.telephony"
+14-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:4:9-50
+15        android:required="false" />
+15-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:5:9-33
+16
+17    <application
+17-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:7:5-22:19
+18        android:allowBackup="false"
+18-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:8:9-36
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="false"
+20-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:9:9-42
+21        android:icon="@drawable/ic_launcher"
+21-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:10:9-45
+22        android:label="@string/app_name"
+22-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:11:9-41
+23        android:theme="@style/AppTheme"
+23-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:13:9-40
+24        android:usesCleartextTraffic="false" >
+24-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:12:9-45
+25        <activity
+25-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:14:9-21:20
+26            android:name="com.shrey.cashflowatlas.MainActivity"
+26-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:15:13-41
+27            android:exported="true" >
+27-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:16:13-36
+28            <intent-filter>
+28-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:17:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:18:17-69
+29-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:19:17-77
+31-->C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+color atlas_green
+color atlas_paper
+drawable ic_launcher
+string app_name
+style AppTheme
