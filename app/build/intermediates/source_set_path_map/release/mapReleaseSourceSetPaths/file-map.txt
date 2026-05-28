@@ -1,7 +1,0 @@
-com.shrey.cashflowatlas.app-pngs-0 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\build\generated\res\pngs\release
-com.shrey.cashflowatlas.app-resValues-1 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\build\generated\res\resValues\release
-com.shrey.cashflowatlas.app-packageReleaseResources-2 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
-com.shrey.cashflowatlas.app-packageReleaseResources-3 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.shrey.cashflowatlas.app-release-4 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\build\intermediates\merged_res\release\mergeReleaseResources
-com.shrey.cashflowatlas.app-main-5 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\main\res
-com.shrey.cashflowatlas.app-release-6 C:\Users\shrey\Documents\New project\launch-lens\android-cashflow-atlas\app\src\release\res

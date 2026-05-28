@@ -1,5 +1,0 @@
-com.shrey.cashflowatlas:string/app_name = 0x7f030000
-com.shrey.cashflowatlas:style/AppTheme = 0x7f040000
-com.shrey.cashflowatlas:drawable/ic_launcher = 0x7f020000
-com.shrey.cashflowatlas:color/atlas_paper = 0x7f010001
-com.shrey.cashflowatlas:color/atlas_green = 0x7f010000

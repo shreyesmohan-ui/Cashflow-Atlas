@@ -1,15 +1,22 @@
+# Android Build
+/build
+/*/build
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
 .externalNativeBuild
 .cxx
-local.properties
+captures/
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# OS
+.DS_Store
+Thumbs.db
