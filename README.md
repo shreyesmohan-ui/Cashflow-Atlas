@@ -1,69 +1,70 @@
-# Cashflow Atlas Android
+# Cashflow Atlas: Local-First Financial Fortress
 
-Native Android version of Cashflow Atlas. It reads bank SMS alerts locally, extracts debit/credit transactions, categorizes spending with customizable keyword rules, and shows budget insights on-device.
+**Cashflow Atlas** is a high-performance, native Android application designed to transform bank SMS alerts into a visual, proactive financial map. Built with a "Privacy First" philosophy, it processes all sensitive financial data entirely on-device with zero internet dependencies.
 
-## What It Includes
+![Cashflow Atlas Dashboard](screenshots/cashflow-ai-enhanced.png)
 
-- Runtime `READ_SMS` permission request
-- Recent inbox scan using Android's SMS provider
-- Manual SMS paste fallback for devices or builds without SMS permission
-- Local SMS parser for debit/credit, amount, merchant, date, category, and confidence
-- Editable finance profile: income, emergency fund, savings goal, monthly save target
-- Fully customizable categories: label, budget, color, keyword rules
-- Manual transaction ledger
-- Imported SMS transaction ledger
-- Human-readable budget and runway insights
-- Custom native Canvas money-map with Flow and Risk views
-- JSON persistence using `SharedPreferences`
-- Plain Java Android views with no Compose or AndroidX dependency
+---
 
-## Open In Android Studio
+## 🚀 Advanced Intelligence Suite
 
-1. Open Android Studio.
-2. Choose **Open**.
-3. Select this folder:
+Beyond simple expense tracking, Cashflow Atlas provides professional-grade financial analytics:
 
-```text
-android-cashflow-atlas/
-```
+### 1. Predictive Forecasting & "Ghost Bars"
+The engine calculates your real-time spending pace based on the day of the month. In **Risk Scan** mode, the app renders "Ghost Bars" showing where you are projected to be at the end of the month, allowing you to catch budget overruns before they happen.
 
-4. Let Gradle sync.
-5. Run the `app` configuration on an Android device or emulator.
+### 2. Merchant Intelligence Map
+A custom-built bubble visualization that aggregates spending by individual merchants. It uses a spiral layout to highlight your top spend locations, providing instant clarity on where your money is concentrated.
 
-## Build From Terminal
+### 3. Savings Optimizer
+The optimizer identifies discretionary vs. essential spending. It provides dynamic "What-If" scenarios, calculating exactly how many months faster you can reach your savings goal by reducing non-essential spend by just 25%.
 
-```text
-gradlew.bat :app:assembleDebug
-```
+### 4. Intelligence Sentinel (Anomaly Detection)
+An automated security guard for your ledger that:
+- **Detects Duplicates**: Flags potential double-billing or duplicate manual entries.
+- **Security Scanner**: Monitors incoming SMS for high-risk keywords like "unauthorized", "blocked", or "suspicious" activities.
 
-The debug APK is created at:
+---
 
-```text
-app/build/outputs/apk/debug/app-debug.apk
-```
+## 🛡️ Security & Privacy Fortress
 
-## SMS Permission Note
+Cashflow Atlas is built to be a digital vault for your finances:
 
-This app requests `READ_SMS` so it can scan bank SMS alerts on-device. For personal use, side-loaded builds, college demos, and portfolio demos, that is fine after the user grants runtime permission.
+- **Anti-Spyware Shield**: Uses system-level `FLAG_SECURE` to block all screenshots and screen recordings, protecting your data from malicious background apps.
+- **Stealth Mode (Privacy Mask)**: A one-tap toggle in the title bar that masks all currency figures across the entire UI. Perfect for reviewing your finances in public spaces.
+- **PII Scrubber**: Automatically redacts Personally Identifiable Information (Account numbers, card numbers) from SMS body text before it is ever stored.
+- **No Internet Permission**: Verified through the Android Manifest—the app physically cannot send your data to any server.
 
-Publishing an app with SMS permissions on Google Play is restricted. If you want Play Store distribution, either remove direct inbox scanning and keep the manual SMS paste/import flow, or ensure the app qualifies under Google's SMS permission policy.
+---
 
-## Important Files
+## 📊 Visual Atlas
 
-```text
-app/src/main/java/com/shrey/cashflowatlas/MainActivity.java
-app/src/main/java/com/shrey/cashflowatlas/AtlasView.java
-app/src/main/java/com/shrey/cashflowatlas/sms/SmsParser.java
-app/src/main/java/com/shrey/cashflowatlas/sms/SmsReader.java
-app/src/main/java/com/shrey/cashflowatlas/analytics/FinanceAnalyzer.java
-app/src/main/java/com/shrey/cashflowatlas/data/CashflowStore.java
-app/src/main/java/com/shrey/cashflowatlas/model/
-```
+The heart of the app is a custom native Canvas visualization with three distinct modes:
+- **Flow View**: A Sankey-inspired flow showing Income splitting into Savings and Spending.
+- **Risk Scan**: A bar-chart dashboard comparing Budget vs. Actual vs. Forecast.
+- **Merchant Map**: A bubble-chart aggregate of your top spend locations.
 
-## Customization Ideas
+![Risk Scan Emulator](screenshots/cashflow-redesign-emulator.png)
 
-- Add encrypted storage for sensitive transactions
-- Add monthly filters and CSV export
-- Add notification-based transaction capture
-- Add biometric lock
-- Add charts for recurring bills and subscription detection
+---
+
+## 🛠️ Technical Details
+
+- **Language**: 100% Plain Java (Modern Android patterns)
+- **UI Architecture**: Native View system with custom `Canvas` drawing for high-performance charts.
+- **Gradle**: Updated to **9.4.1**
+- **Persistence**: Encrypted local storage using `AndroidKeyStore` (AES/GCM/NoPadding).
+- **Dependencies**: Minimal footprint with no heavy frameworks (No Compose, No AndroidX dependencies required).
+
+---
+
+## 🏁 Getting Started
+
+1. **Open** the project in Android Studio.
+2. **Build** using the `app` configuration.
+3. **Grant READ_SMS** to enable automatic inbox scanning, or use the **Manual Paste** fallback.
+4. **Import Sample Data** to instantly see the AI Forecasting and Merchant Map in action.
+
+---
+
+*Developed by Shreyes Mohan - Empowering financial clarity through local-first intelligence.*
